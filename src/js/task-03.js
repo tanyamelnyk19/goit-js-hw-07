@@ -20,5 +20,4 @@ const galleryList = images.map(({ url, alt }) => `<li>
   </li>`).join('');
 
 gallery.insertAdjacentHTML('beforeend', galleryList);
-console.log(gallery);
 
